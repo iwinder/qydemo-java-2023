@@ -16,7 +16,7 @@ public class MThreadTest {
         // 测试多次执行 start
         // t.start();
 
-        
+
         // Lambda
         FutureTask<String> f2 = new FutureTask<String>(()->{
            return "这是一个使用 Lambda 表达式实现 Callable 的的匿名内部类";
@@ -29,7 +29,7 @@ public class MThreadTest {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         Future<String> future = executor.submit(new MThread());
         System.out.println("这是一个基于线程池运行的 Future："+future.get());
-        executor.close();
+        executor.shutdown();
 
         try {
             test2();
@@ -58,7 +58,7 @@ public class MThreadTest {
         //默认使用的线程池里的线程是 daemon 的。main线程结束后，整个程序也结束了
         // 这里通过 join() 用于等待 completableFuture 线程终止
         completableFuture.join();
-        // 类似也可以将main线程join 保证任务里的代码执行完-仅限测试
-        // Thread.currentThread().join(10000);
+        // 类似也可以将main线程join 保证任务里的代码执行完-仅限测试，此时有点类似 sleep ，如果不加时间会因为成为循环一直执行下去。
+//         Thread.currentThread().join(10000);
     }
 }

@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c14201b-3162-4306-8a05-aeb10019c903" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/ComThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/extendDemo/MThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/extendDemo/MThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/futureDemo/MThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/futureDemo/MThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/runnableDemo/MThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/runnableDemo/MThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/virtuals/BaseVirtualThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/virtuals/ExeVirtualThreadExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BlockedIOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BookStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BookStorageOfLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BookStorageOfReenterBlockedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/CounterOfBlockedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/JoinMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/futureDemo/MThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/futureDemo/MThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -62,13 +58,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.windcoder.threads.platform.futureDemo.MThreadTest">
-    <configuration name="BaseVirtualThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.virtuals.BaseVirtualThreadExample" />
+  <component name="RunManager" selected="Application.BlockedIOTest">
+    <configuration name="BlockedIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.stateDemo.BlockedIOTest" />
       <module name="qy-base-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.windcoder.threads.virtuals.*" />
+          <option name="PATTERN" value="com.windcoder.threads.platform.stateDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.ComThread" />
+    <configuration name="BookStorageOfLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.stateDemo.BookStorageOfLockTest" />
       <module name="qy-base-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.windcoder.threads.platform.*" />
+          <option name="PATTERN" value="com.windcoder.threads.platform.stateDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.extendDemo.MThreadTest" />
+    <configuration name="BookStorageOfReenterBlockedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.stateDemo.BookStorageOfReenterBlockedTest" />
       <module name="qy-base-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.windcoder.threads.platform.extendDemo.*" />
+          <option name="PATTERN" value="com.windcoder.threads.platform.stateDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.stateDemo.JoinMainTest" />
+      <module name="qy-base-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windcoder.threads.platform.stateDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.windcoder.threads.platform.runnableDemo.MThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.windcoder.threads.platform.runnableDemo.MThreadTest" />
-      <module name="qy-base-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.windcoder.threads.platform.runnableDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockedIOTest" />
+        <item itemvalue="Application.JoinMainTest" />
+        <item itemvalue="Application.BookStorageOfReenterBlockedTest" />
         <item itemvalue="Application.com.windcoder.threads.platform.futureDemo.MThreadTest" />
-        <item itemvalue="Application.com.windcoder.threads.platform.runnableDemo.MThreadTest" />
-        <item itemvalue="Application.MThreadTest" />
-        <item itemvalue="Application.ComThread" />
-        <item itemvalue="Application.BaseVirtualThreadExample" />
+        <item itemvalue="Application.BookStorageOfLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +151,7 @@
       <workItem from="1700907531289" duration="23837000" />
       <workItem from="1701187279352" duration="6857000" />
       <workItem from="1701201741383" duration="458000" />
-      <workItem from="1701230214456" duration="9880000" />
+      <workItem from="1701230214456" duration="45862000" />
     </task>
     <servers />
   </component>
@@ -169,11 +165,6 @@
           <properties class="java.lang.IllegalThreadStateException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../apps/java/jdk/jdk-21/lib/src.zip!/java.base/jdk/internal/misc/VM.java</url>
-          <line>334</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
