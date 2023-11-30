@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c14201b-3162-4306-8a05-aeb10019c903" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BlockedIOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BookStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BookStorageOfLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/BookStorageOfReenterBlockedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/CounterOfBlockedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/stateDemo/JoinMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/futureDemo/MThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windcoder/threads/platform/futureDemo/MThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +144,7 @@
       <workItem from="1700907531289" duration="23837000" />
       <workItem from="1701187279352" duration="6857000" />
       <workItem from="1701201741383" duration="458000" />
-      <workItem from="1701230214456" duration="45862000" />
+      <workItem from="1701230214456" duration="46716000" />
     </task>
     <servers />
   </component>

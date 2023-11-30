@@ -1,4 +1,4 @@
-package com.windcoder.threads.platform.extendDemo;
+package com.windcoder.threads.platform.createDemo.extendDemo;
 
 public class MThreadTest {
     public static void main(String[] args) {

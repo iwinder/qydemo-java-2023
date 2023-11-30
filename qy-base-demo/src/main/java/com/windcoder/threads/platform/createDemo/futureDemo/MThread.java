@@ -1,4 +1,4 @@
-package com.windcoder.threads.platform.futureDemo;
+package com.windcoder.threads.platform.createDemo.futureDemo;
 
 import java.util.concurrent.Callable;
 
